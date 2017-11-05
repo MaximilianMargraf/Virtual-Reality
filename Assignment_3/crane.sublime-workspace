@@ -1,0 +1,2876 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_o",
+				"_offset_mat"
+			],
+			[
+				"SF",
+				"SF_MAT4"
+			],
+			[
+				"conne",
+				"connect_from"
+			],
+			[
+				"off",
+				"offset_node"
+			],
+			[
+				"rep",
+				"representation_list"
+			],
+			[
+				"_trial",
+				"_trial_id"
+			],
+			[
+				"_fr",
+				"_frame_list"
+			],
+			[
+				"make",
+				"make_identity_mat"
+			],
+			[
+				"_",
+				"_target_list"
+			],
+			[
+				"_ba",
+				"_ballistic_distance"
+			],
+			[
+				"_fram",
+				"_frame"
+			],
+			[
+				"_ex",
+				"_entry_index"
+			],
+			[
+				"_E",
+				"_exit_index"
+			],
+			[
+				"_v",
+				"_v_angle"
+			],
+			[
+				"_target",
+				"_target_list"
+			],
+			[
+				"_ta",
+				"_target_list"
+			],
+			[
+				"_targ",
+				"_target_quat"
+			],
+			[
+				"_del",
+				"_delta_quat"
+			],
+			[
+				"_q",
+				"_q_y"
+			],
+			[
+				"_target_",
+				"_target_quat"
+			],
+			[
+				"_max",
+				"_max_velocity"
+			],
+			[
+				"_value",
+				"_value"
+			],
+			[
+				"_weigh",
+				"_weight_sum"
+			],
+			[
+				"gau",
+				"_gauss_weights"
+			],
+			[
+				"_sum",
+				"_sum_list"
+			],
+			[
+				"_max_",
+				"_max_value_list"
+			],
+			[
+				"_tar",
+				"_target"
+			],
+			[
+				"_w_r",
+				"_w_r_sd"
+			],
+			[
+				"_wt_",
+				"_w_t_sd"
+			],
+			[
+				"_t",
+				"_target_pos"
+			],
+			[
+				"look",
+				"_lookup"
+			],
+			[
+				"_lo",
+				"_lookup_list"
+			],
+			[
+				"_d_t",
+				"_d_time"
+			],
+			[
+				"_l",
+				"_l_x"
+			],
+			[
+				"_y",
+				"_d_t_y"
+			],
+			[
+				"_move",
+				"_movement_phase"
+			],
+			[
+				"_entry",
+				"_entry_time"
+			],
+			[
+				"_balls",
+				"_ballistic_duration_list"
+			],
+			[
+				"_entry_",
+				"_entry_block_id"
+			],
+			[
+				"_last",
+				"_last_block_id"
+			],
+			[
+				"_exit_",
+				"_exit_block_id"
+			],
+			[
+				"_entr",
+				"_entry_time"
+			],
+			[
+				"_las",
+				"_last_t_x"
+			],
+			[
+				"_frame",
+				"_frame_list"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"_movemen",
+				"_movement_flag"
+			],
+			[
+				"_li",
+				"_list"
+			],
+			[
+				"_fra",
+				"_frame"
+			],
+			[
+				"_e",
+				"_exit_index"
+			],
+			[
+				"_F",
+				"_frame_list"
+			],
+			[
+				"_inde",
+				"_index"
+			],
+			[
+				"fr",
+				"_frame_list"
+			],
+			[
+				"_m",
+				"_movement_flag"
+			],
+			[
+				"_movement",
+				"_movement_phase"
+			],
+			[
+				"sea",
+				"search_minimum"
+			],
+			[
+				"_i",
+				"_i"
+			],
+			[
+				"_star",
+				"_start_time"
+			],
+			[
+				"_ol",
+				"_old_trial_id"
+			],
+			[
+				"_f",
+				"_frame_list"
+			],
+			[
+				"_line",
+				"_line2"
+			],
+			[
+				"_fi",
+				"_file_list"
+			],
+			[
+				"_tr",
+				"_trial_end_time"
+			],
+			[
+				"_tri",
+				"_trial_start_time"
+			],
+			[
+				"_block_id",
+				"_block_id"
+			],
+			[
+				"block",
+				"_block_id"
+			],
+			[
+				"_su",
+				"_summed_time_list"
+			],
+			[
+				"get",
+				"get_node"
+			],
+			[
+				"remo",
+				"remove"
+			],
+			[
+				"scene",
+				"scene_root"
+			],
+			[
+				"_child_",
+				"_child_node"
+			],
+			[
+				"get_",
+				"get_type"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"line",
+				"linewidth"
+			],
+			[
+				"_timestamps",
+				"_timestamps"
+			],
+			[
+				"open",
+				"open_file"
+			],
+			[
+				"_va",
+				"_value3_list"
+			],
+			[
+				"_sum_delta_",
+				"_sum_delta_trans"
+			],
+			[
+				"_de",
+				"_delta_scale"
+			],
+			[
+				"_tupel",
+				"_tupel_list"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/main.py",
+			"settings":
+			{
+				"buffer_size": 5283,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/PortalCameraTool2.py",
+			"settings":
+			{
+				"buffer_size": 46618,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/inputs/MultiTouchInput.py",
+			"settings":
+			{
+				"buffer_size": 12504,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/fake-input-devices.py",
+			"settings":
+			{
+				"buffer_size": 3265,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Application.py",
+			"settings":
+			{
+				"buffer_size": 57813,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/LatencyMeasurement.py",
+			"settings":
+			{
+				"buffer_size": 2830,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/daemon.py",
+			"settings":
+			{
+				"buffer_size": 28072,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/FlashlightTool2.py",
+			"settings":
+			{
+				"buffer_size": 16190,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/start.sh",
+			"settings":
+			{
+				"buffer_size": 1137,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Scene.py",
+			"settings":
+			{
+				"buffer_size": 37970,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/client.py",
+			"settings":
+			{
+				"buffer_size": 4768,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/RayTool2.py",
+			"settings":
+			{
+				"buffer_size": 49241,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/Tool2.py",
+			"settings":
+			{
+				"buffer_size": 16083,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/MultiTouchTool.py",
+			"settings":
+			{
+				"buffer_size": 76128,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/touch_manipulators/RST_3D/RST_and_H_Manipulator.py",
+			"settings":
+			{
+				"buffer_size": 36532,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Camera.py",
+			"settings":
+			{
+				"buffer_size": 21778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/touch_manipulators/TouchManipulator.py",
+			"settings":
+			{
+				"buffer_size": 7355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/InteractiveObject.py",
+			"settings":
+			{
+				"buffer_size": 10778,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Animators.py",
+			"settings":
+			{
+				"buffer_size": 14956,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/InteractiveObjectSelectionPolicies.py",
+			"settings":
+			{
+				"buffer_size": 3030,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/User.py",
+			"settings":
+			{
+				"buffer_size": 4953,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#!/usr/bin/python\n\n## @file\n# Contains base class LightObject.\n\n### import avango-guacamole libraries\nimport avango\nimport avango.gua\n\n\n### import python libraries\nimport builtins\n\n \nclass LightObject:\n\n\n    ### class variables ###\n\n    ## @var number_of_instances\n    # Number of LightObject instances that have already been created. Used for assigning unique IDs.\n    number_of_instances = 0\n\n\n\n    ### constructor\n    def __init__(self,\n        TYPE = avango.gua.LightType.POINT,\n        COLOR = avango.gua.Color(1.0,1.0,1.0),\n        BRIGHTNESS = 100.0,\n        FALLOFF = 1.0,\n        LIGHT_DIMENSIONS = avango.gua.Vec3(1.0,1.0,1.0),\n        SHADOW_FLAG = False,\n        SHADOW_MAP_SIZE = 512,\n        SHADOW_OFFSET = 0.001,\n        SHADOW_MAX_DISTANCE = 100.0,\n        SHADOW_NEAR_CLIP = 0.1,\n        SHADOW_FAR_CLIP = 100.0,\n        SHADOW_CASCADED_SPLITS = [0.1, 10, 50, 200],\n        ):\n\n\n        ## @var id\n        # Identification number of this LightObject.\n        self.id = LightObject.number_of_instances\n        LightObject.number_of_instances += 1\n        \n        builtins.LIGHT_OBJECT_HANDLER.register_light_object(self)\n        \n\n        ### variables ###\n        self.initial_shadow_flag = SHADOW_FLAG\n\n        self.dimensions = LIGHT_DIMENSIONS\n        self.shadow_offset = SHADOW_OFFSET\n        self.shadow_near_clip = SHADOW_NEAR_CLIP\n        #self.shadow_far_clip = SHADOW_FAR_CLIP\n\n\n        ### resources ###        \n        # init nodes\n        self.node = avango.gua.nodes.LightNode(Name = \"light_node\")\n        self.node.Type.value = TYPE\n        self.node.Color.value = COLOR\n        self.node.Brightness.value = BRIGHTNESS\n        self.node.Falloff.value = FALLOFF\n        self.node.Transform.value = avango.gua.make_scale_mat(LIGHT_DIMENSIONS)\n        self.node.EnableShadows.value = SHADOW_FLAG\n        self.node.ShadowMapSize.value = SHADOW_MAP_SIZE\n        self.node.ShadowOffset.value = SHADOW_OFFSET\n        self.node.ShadowMaxDistance.value = SHADOW_MAX_DISTANCE\n        self.node.ShadowCascadedSplits.value = SHADOW_CASCADED_SPLITS\n        #self.node.ShadowNearClippingInSunDirection.value = SHADOW_NEAR_CLIP\n        self.node.ShadowFarClippingInSunDirection.value = SHADOW_FAR_CLIP\n        self.node.ShadowNearClippingInSunDirection.value = SHADOW_NEAR_CLIP * (1.0/LIGHT_DIMENSIONS.z)\n        #self.node.ShadowFarClippingInSunDirection.value = SHADOW_FAR_CLIP * (1.0/LIGHT_DIMENSIONS.z)\n        #print(self.node.ShadowNearClippingInSunDirection.value, self.node.ShadowFarClippingInSunDirection.value)    \n        \n\n                               \n    ### functions ###\n    def get_node(self):\n        return self.node\n\n\n    def set_color(self, COLOR):\n        self.node.Color.value = COLOR\n\n\n    def set_brightness(self, FLOAT):\n        self.node.Brightness.value = FLOAT\n\n    \n    def set_light_dimensions(self, VEC3):\n        self.dimensions = VEC3\n        \n        self.node.Transform.value = avango.gua.make_scale_mat(self.dimensions)\n\n        self.node.ShadowOffset.value = self.shadow_offset * (1.0/self.dimensions.z)\n        self.node.ShadowNearClippingInSunDirection.value = self.shadow_near_clip * (1.0/self.dimensions.z)    \nd\n    def enable_shadow(self, BOOL):\n        #print(\"enable shadows\", self.node.Path.value, BOOL)\n        self.node.EnableShadows.value = BOOL\n\n    \n    def set_shadow_map_size(self, INT):\n        self.node.ShadowMapSize.value = INT\n        \n\n    def set_shadow_offset(self, FLOAT):\n        self.shadow_offset = FLOAT\n        \n        self.node.ShadowOffset.value = self.shadow_offset * (1.0/self.dimensions.z)\n    \n    \n    def set_shadow_near_clip(self, FLOAT):\n        self.shadow_near_clip = FLOAT\n\n        self.node.ShadowNearClippingInSunDirection.value = self.shadow_near_clip * (1.0/self.dimensions.z)\n\n\n    #def set_shadow_max_distance(self, FLOAT):\n    #    self.node.ShadowMaxDistance.value = FLOAT\n    \n        \n",
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/objects/LightObject.py",
+			"file_size": 4131,
+			"file_write_time": 131533249562305212,
+			"settings":
+			{
+				"buffer_size": 3898,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/telepresence_LCD_DLP.py",
+			"settings":
+			{
+				"buffer_size": 10510,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/kerberos.py",
+			"settings":
+			{
+				"buffer_size": 8471,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/objects/AvatarPortalHalo.py",
+			"settings":
+			{
+				"buffer_size": 4740,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Workspace.py",
+			"settings":
+			{
+				"buffer_size": 2821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/ViewContext.py",
+			"settings":
+			{
+				"buffer_size": 13443,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Platform.py",
+			"settings":
+			{
+				"buffer_size": 10205,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Display.py",
+			"settings":
+			{
+				"buffer_size": 58740,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/multi_context_touch.py",
+			"settings":
+			{
+				"buffer_size": 11475,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/medusa_touch.py",
+			"settings":
+			{
+				"buffer_size": 6973,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/athena.py",
+			"settings":
+			{
+				"buffer_size": 6933,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/telepresence_DBL_LCD.py",
+			"settings":
+			{
+				"buffer_size": 11001,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/hydra.py",
+			"settings":
+			{
+				"buffer_size": 8366,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scene_config.py",
+			"settings":
+			{
+				"buffer_size": 3098,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneDBScherkonde.py",
+			"settings":
+			{
+				"buffer_size": 2177,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneDBScherkondeDetail.py",
+			"settings":
+			{
+				"buffer_size": 4195,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneMagdeburgKopf.py",
+			"settings":
+			{
+				"buffer_size": 3597,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneMagdeburgWappen.py",
+			"settings":
+			{
+				"buffer_size": 2657,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneHalberstadtDom.py",
+			"settings":
+			{
+				"buffer_size": 3731,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneValcamonicaGroundTruthSeradina12c.py",
+			"settings":
+			{
+				"buffer_size": 22976,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneValcamonicaGroundTruthRocks.py",
+			"settings":
+			{
+				"buffer_size": 27363,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneTerrakotta.py",
+			"settings":
+			{
+				"buffer_size": 4026,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/desktop.py",
+			"settings":
+			{
+				"buffer_size": 6221,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneBUWMainBuilding.py",
+			"settings":
+			{
+				"buffer_size": 8503,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/telepresence_multi_context.py",
+			"settings":
+			{
+				"buffer_size": 11962,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneEngine.py",
+			"settings":
+			{
+				"buffer_size": 13700,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneVianden.py",
+			"settings":
+			{
+				"buffer_size": 10656,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneStudy.py",
+			"settings":
+			{
+				"buffer_size": 33772,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneStreetBuilder.py",
+			"settings":
+			{
+				"buffer_size": 16165,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/task.py",
+			"settings":
+			{
+				"buffer_size": 9517,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/gauss_filter_replay.py",
+			"settings":
+			{
+				"buffer_size": 6854,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/calc_velocity.py",
+			"settings":
+			{
+				"buffer_size": 9382,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/calc_errors.py",
+			"settings":
+			{
+				"buffer_size": 16566,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/movement_parser.py",
+			"settings":
+			{
+				"buffer_size": 34195,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/kunert/Desktop/guacamole/teaching/vr_lab_class/WS_17_18/coding/03_crane/students"
+	],
+	"file_history":
+	[
+		"/home/kunert/Desktop/guacamole/teaching/vr_exercises/WS_17_18/solution/03_crane/crane.sublime-project",
+		"/home/kunert/Desktop/guacamole/teaching/vr_exercises/WS_17_18/solution/03_crane/start.sh",
+		"/home/kunert/Desktop/guacamole/teaching/vr_exercises/WS_17_18/solution/03_crane/lib/SimpleViewingSetup.py",
+		"/home/kunert/Desktop/guacamole/teaching/vr_exercises/WS_17_18/solution/03_crane/main.py",
+		"/mnt/data_internal/vr_excercises/WS_17_18/solar-system/solution/start.sh",
+		"/mnt/data_internal/vr_excercises/WS_17_18/solar-system/solution/main.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/Screen.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/medusa_touch.py",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/plot.gpl",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/readme_gnuplot.txt",
+		"/home/kunert/Desktop/guacamole/Fitts3D/code/core.py",
+		"/home/kunert/Desktop/guacamole/Fitts3D/code/tasks.py",
+		"/media/kunert/USB DISK/LatencyMeasurement.py",
+		"/home/kunert/Desktop/guacamole/Fitts3D/code/Cursor.py",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/calc_translation_error.py",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/lowpass_filter_replay.py",
+		"/home/kunert/Desktop/guacamole/Fitts3D/code/config.py",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/3_docking_T3_3_R3/3_docking_user2_trial2_velocity_0.15.replay",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/movement_parser.py",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/3_docking_T3_3_R3/3_docking_user2_trial2_velocity.replay",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/3_docking_T3_3_R3/3_docking_user2_trial2.replay",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/3_docking_T3_3_R3/3_docking_user2_trial2_0.15.replay",
+		"/home/kunert/Desktop/multi_context_study_statistics/scripts/low_pass_filtering/activity.py",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/lowpass_filter_task .py",
+		"/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/start_task.sh",
+		"/home/kunert/Desktop/Fitts3D/code/config.py",
+		"/home/kunert/Desktop/Fitts3D/code/core.py",
+		"/home/kunert/Desktop/Fitts3D/code/tasks.py",
+		"/home/kunert/Desktop/Fitts3D/code/Phone.py",
+		"/home/kunert/Desktop/Fitts3D/startTasks.sh",
+		"/home/kunert/Desktop/Fitts3D/code/daemon.py",
+		"/home/kunert/Desktop/Fitts3D/code/coreWall.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/Camera.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/ScenePitoti.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneSchlossplatz.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneValcamonicaGroundTruthSeradina12c.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneValcamonicaGroundTruth.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneHalberstadtDom.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneTempelherrenhaus.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneMagdeburgWappen.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneMagdeburgKopf.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneMagdeburgBridge.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/tools/Contacts.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneQuarks.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneWappen.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneHalberstadt.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneNPR.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneMaria.py",
+		"/home/kunert/Desktop/multi_context_study_statistics/scripts/master_timeline_inputs_5_0.txt",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/desktop.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/POIContainer.py",
+		"/home/kunert/Desktop/guacamole/test_applictions/simple_example_tracking_override/start.sh",
+		"/home/kunert/Desktop/guacamole/test_applictions/simple_example_tracking_override/main.py",
+		"/home/kunert/Desktop/guacamole/test_applictions/simple_example_tracking_override/daemon.py",
+		"/home/kunert/Desktop/guacamole/avango-applications_study_recalc/lib/Recalcer.py",
+		"/home/kunert/Desktop/multi_context_study_statistics/navigation.py",
+		"/home/kunert/Desktop/multi_context_study_statistics/activity.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/ViewContext.py",
+		"/home/kunert/Desktop/ALEX/avango-applications/lib/Animators.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/User.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/fake-input-devices_.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/fake-input-devices.py",
+		"/opt/avango/master/lib/python3.5/avango/script/_meta_script.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/tools/touch_manipulators/RST_3D/RST_and_H_Manipulator.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneEngine.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/objects/WorkspaceObject.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/ScenePassat.py",
+		"/home/kunert/Desktop/multi_context_study_statistics/scripts/master_timeline_inputs_1_0.txt",
+		"/home/kunert/Desktop/multi_context_study_statistics/scripts/plot_master_timeline.py",
+		"/home/kunert/Desktop/multi_context_study_statistics/start_activity.sh",
+		"/home/kunert/Desktop/multi_context_study_statistics/main.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/Navigation.py",
+		"/home/kunert/Desktop/for_steffi/timeline.py",
+		"/mnt/pitoti/multi-context-study/scripts/plot_master_timeline.py",
+		"/home/kunert/Desktop/test/start.sh",
+		"/home/kunert/Desktop/test/main.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/start-client.sh",
+		"/home/kunert/Desktop/guacamole/ephra/avango-applications/lib/SceneObject.py",
+		"/home/kunert/Desktop/guacamole/ephra/avango-applications/lib/RaySetup.py",
+		"/home/kunert/Desktop/guacamole/ephra/avango-applications/lib/Manipulators.py",
+		"/home/kunert/Desktop/guacamole/ephra/avango-applications/lib/Contacts.py",
+		"/home/kunert/Desktop/guacamole/ephra/avango-applications/lib/InteractiveObject.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/Scene.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/InteractiveObject.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/Manipulators.py",
+		"/home/kunert/Pictures/weimarP/viewpoints.txt",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/Contacts.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/RayTool.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/configs/kerberos.py",
+		"/home/kunert/Desktop/guacamole/avango-applications/lib/Portal.py",
+		"/home/kunert/Desktop/guacamole/multi_context/navigation-viewing-framework/NavigationViewingFramework.sublime-project"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"toggle_camera_resolution",
+			"enable_lq_plod_rendering",
+			"poi",
+			"search_and_init_keyboard",
+			"init_dlp_wall_tracking",
+			"FPSGui",
+			"highlight",
+			"test_mode",
+			"halo",
+			"VIEW_CONTEXT_LIST",
+			"view_context",
+			"platform",
+			"sf_display_mat",
+			"SCREEN_MAT",
+			"VIDEO_AVATARS_FILENAME",
+			"AvatarPortalHalo",
+			"halo",
+			"filter_value",
+			"enable_hi",
+			"calc_translation_error",
+			"range",
+			"_subtask",
+			"write_user_file",
+			"_trans_distance_list",
+			"_ballistic_trans_duration_list",
+			"calc_translation_error",
+			"_ballistic_rot_distance_list",
+			"_ballistic_rot_duration_list",
+			"sum_values_in_intervall",
+			"_ballistic_duration",
+			"write_user_file",
+			"_block_id",
+			"calc_velocity",
+			"_ballistic_rot_distance_list",
+			"write_user_file",
+			"_ballistic_trans_distance_list",
+			"_ballistic_trans_duration_list",
+			"_ballistic_distance_list",
+			"_ballistic_duration_list",
+			"write_user_file",
+			"DURATION_LIST",
+			"BALLISTIC_DURATION_LIST",
+			"DURATION_LIST",
+			"DISTANCE_LIST",
+			"_distance_list",
+			"MAX_VELOCITY_LIST",
+			"_duration_list",
+			"_max_velocity_list",
+			"get_max_value_per_block",
+			"_target_list",
+			"cursorContainer",
+			"cursorNode",
+			"make_rot",
+			"cursorNode",
+			"log",
+			"rot_mat",
+			"rot_ma",
+			"_target",
+			"_target_list",
+			"write_new_replay_file",
+			"search_left_minimum",
+			"INDEX",
+			"sum_values_in_intervall",
+			"peak",
+			"get_max_value_per_block",
+			"_distance",
+			"_peak_velocity_list",
+			"_max_velocity",
+			"_peak_velocity",
+			"_frame_list",
+			"block",
+			"_translation",
+			"_ballistic_translation",
+			"_movement_phase",
+			"_trial_id",
+			"time",
+			"_distance_list",
+			"INTERVALL",
+			"low_pass_filter_replay_file",
+			"_entry_frame",
+			"_block_id",
+			"_entry_frame",
+			"_distance",
+			"time",
+			"self.leftRight",
+			"self.level",
+			"phone",
+			"_exit_index",
+			"_exit_index2",
+			"low_pass_filter_replay_file",
+			"average_and_write_to_file",
+			"block",
+			")\n",
+			"average_and_write_to_file",
+			"os.",
+			"decompose_subtree_in_ios",
+			"                \n",
+			"block",
+			"_tmp_trial_list",
+			"_trial_duration",
+			"_trial",
+			"_task_block",
+			"_counter",
+			"_task_list",
+			"_task_file",
+			"_frame_list",
+			"_file",
+			"testConfigNo",
+			"soundtraverser",
+			"self.cam",
+			"head_device_sensor",
+			"tracking",
+			"nextSettingStep",
+			"offsetTracking",
+			"gui",
+			"screen",
+			"setup(",
+			"EVENT_STRING",
+			"init_keyboard",
+			"init_lcd_wall_tracking",
+			"init_keyboard",
+			"list-ev",
+			"init_poi_visualization",
+			"poi",
+			"set_near_far_plane",
+			"near",
+			"HOME_SCALE_ANIMTION_FLAG",
+			"start_home_scale_animation"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"data/subtask-data",
+			"data/interactions_space",
+			"_",
+			"new_calc/navigation_1_0",
+			"new_calc/activity_1_0",
+			"_",
+			"new_calc/navigation_5_0",
+			"new_calc/activity_5_0",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 17,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 44,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/PortalCameraTool2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 519.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/inputs/MultiTouchInput.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12090,
+								12090
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4954.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 54,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/fake-input-devices.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 53,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Application.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12489.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/LatencyMeasurement.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2455,
+								2455
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 45,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/daemon.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/FlashlightTool2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/start.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								585,
+								585
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Scene.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2814.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/client.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4768,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1125.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 41,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/RayTool2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6759.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 48,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/Tool2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								722,
+								722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 24.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/MultiTouchTool.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 76128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 18519.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/touch_manipulators/RST_3D/RST_and_H_Manipulator.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Camera.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 4899.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/tools/touch_manipulators/TouchManipulator.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3473,
+								3473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1096.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/InteractiveObject.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9883,
+								9883
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3529.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Animators.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1862,
+								1862
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 49,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/InteractiveObjectSelectionPolicies.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								460,
+								460
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/User.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								485,
+								485
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/objects/LightObject.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3175,
+								3175
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/telepresence_LCD_DLP.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1008,
+								1008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/kerberos.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 259.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/objects/AvatarPortalHalo.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1677,
+								1677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Workspace.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1500,
+								1500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/ViewContext.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5021,
+								5021
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 2469.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Platform.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6151,
+								6151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 2610.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/lib/Display.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								735,
+								735
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 11,
+			"sheets":
+			[
+				{
+					"buffer": 29,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/multi_context_touch.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/medusa_touch.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/athena.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4168,
+								4168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/telepresence_DBL_LCD.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 915.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/hydra.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1935.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scene_config.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneDBScherkonde.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1158,
+								1158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 36,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneDBScherkondeDetail.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3719,
+								3719
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 64.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneMagdeburgKopf.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 38,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneMagdeburgWappen.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 42,
+					"type": "text"
+				},
+				{
+					"buffer": 39,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneHalberstadtDom.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2841,
+								2841
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 40,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneValcamonicaGroundTruthSeradina12c.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2679.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 41,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneValcamonicaGroundTruthRocks.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2565.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 42,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneTerrakotta.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4026,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								669,
+								669
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 43,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/desktop.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1215.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 39,
+					"type": "text"
+				},
+				{
+					"buffer": 44,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneBUWMainBuilding.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8503,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3654,
+								3654
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 64.0,
+						"translation.y": 387.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 52,
+					"type": "text"
+				},
+				{
+					"buffer": 45,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/telepresence_multi_context.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5037,
+								5037
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 46,
+					"type": "text"
+				},
+				{
+					"buffer": 46,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneEngine.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6951,
+								6951
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 50,
+					"type": "text"
+				},
+				{
+					"buffer": 47,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneVianden.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 40,
+					"type": "text"
+				},
+				{
+					"buffer": 48,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneStudy.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1806,
+								1806
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 159.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 47,
+					"type": "text"
+				},
+				{
+					"buffer": 49,
+					"file": "/home/kunert/Desktop/guacamole/avango-applications/configs/scenes/SceneStreetBuilder.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14817,
+								14817
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3279.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 51,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 50,
+					"file": "/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/task.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5433,
+								5433
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2119.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 51,
+					"file": "/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/gauss_filter_replay.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1941,
+								1941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 38,
+					"type": "text"
+				},
+				{
+					"buffer": 52,
+					"file": "/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/calc_velocity.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5646,
+								5646
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1966.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 37,
+					"type": "text"
+				},
+				{
+					"buffer": 53,
+					"file": "/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/calc_errors.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15558,
+								15558
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5373.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 43,
+					"type": "text"
+				},
+				{
+					"buffer": 54,
+					"file": "/home/kunert/Desktop/guacamole/Fitts3D/studyData/scripts/movement_parser.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18399,
+								18399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7039.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.447490805289,
+			0.978687127025,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "crane.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
