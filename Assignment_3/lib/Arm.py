@@ -33,22 +33,22 @@ class Arm:
         _loader = avango.gua.nodes.TriMeshLoader() # get trimesh loader to load external tri-meshes
         
         ### init Geometry ###
-        self.object_geometry = _loader.create_geometry_from_file("hinge_geometry", "data/objects/cylinder.obj", avango.gua.LoaderFlags.DEFAULTS)
+        self.object_geometry = _loader.create_geometry_from_file("arm_geometry", "data/objects/cylinder.obj", avango.gua.LoaderFlags.DEFAULTS)
         #self.object_geometry.Transform.value = avango.gua.make_trans_mat(0.0, self.length * 50, 0.0)        
         self.object_geometry.Transform.value = avango.gua.make_scale_mat(self.diameter, self.length, self.diameter)
 
 
         #### init hinge nodes ###
-        self.arm_position_node = avango.gua.nodes.TransformNode(Name = "arm_top_position_node")
+        self.arm_position_node = avango.gua.nodes.TransformNode(Name = "arm_center_position_node")
         self.arm_position_node.Children.value = [self.object_geometry]
-        self.arm_position_node.Transform.value = avango.gua.make_trans_mat(0.0, self.length, 0.0 )
+        self.arm_position_node.Transform.value *= avango.gua.make_trans_mat(0.0, self.length/2, 0.0 )
         PARENT_NODE.Children.value.append(self.arm_position_node)
 
-        self.arm_position_node = avango.gua.nodes.TransformNode(Name = "arm_bot_position_node")
-        self.arm_position_node.Children.value = [self.object_geometry]
-        self.arm_position_node.Transform.value = avango.gua.make_trans_mat(0.0, self.length/2, 0.0)
-        PARENT_NODE.Children.value.append(self.arm_position_node)
+        self.arm_top_position_node = avango.gua.nodes.TransformNode(Name = "arm_top_position_node")
+        self.arm_top_position_node.Transform.value = avango.gua.make_trans_mat(0.0, self.length, 0.0)
+        self.arm_top_position_node.Transform.value *= ROT_OFFSET_MAT
 
-        ## ToDo: init arm node(s)
-        # ...
-    
+        PARENT_NODE.Children.value.append(self.arm_top_position_node)
+
+    def get_arm_top_position_node(self):
+        return self.arm_top_position_node

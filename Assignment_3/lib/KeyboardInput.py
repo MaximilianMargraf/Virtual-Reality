@@ -89,7 +89,6 @@ class KeyboardInput(avango.script.Script):
         
         ## ToDo: realize frame-rate independent mapping
         self.lf_time = time.time() # save absolute time of last frame (required for frame-rate independent mapping)
-
                 
         ## get rot_value0
         if self.sf_button0.value == True:

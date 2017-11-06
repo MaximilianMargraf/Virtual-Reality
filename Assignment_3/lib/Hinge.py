@@ -5,6 +5,7 @@ import avango
 import avango.gua
 import avango.script
 from avango.script import field_has_changed
+from lib.KeyboardInput import KeyboardInput
 
 
 class Hinge(avango.script.Script):
@@ -16,6 +17,7 @@ class Hinge(avango.script.Script):
 
     # Number of Hinge instances that have already been created.
     number_of_instances = 0
+    
    
 
     ## constructor
@@ -37,9 +39,12 @@ class Hinge(avango.script.Script):
         ):
 
 
-        ### parameters ###
-        self.rot_axis = ROT_AXIS        
+        self.input = KeyboardInput()
 
+
+        ### parameters ###
+        self.rot_axis = ROT_AXIS
+        self.sf_rot_value
 
         ### variables ###
         self.diameter = DIAMETER
@@ -50,26 +55,36 @@ class Hinge(avango.script.Script):
 
         ### init Geometry ###
         self.object_geometry = _loader.create_geometry_from_file("hinge_geometry", "data/objects/cylinder.obj", avango.gua.LoaderFlags.DEFAULTS)
-        self.object_geometry.Transform.value = avango.gua.make_scale_mat(self.diameter, self.height, self.diameter)
+        self.object_geometry.Transform.value *= ROT_OFFSET_MAT
+        self.object_geometry.Transform.value *= avango.gua.make_scale_mat(self.diameter, self.height, self.diameter)
+        self.object_geometry.Material.value.set_uniform("Color", avango.gua.Vec4(1.0 , 0, 0, 1))
 
         #### init hinge nodes ###
         self.hinge_position_node = avango.gua.nodes.TransformNode(Name = "hinge_position_node")
         self.hinge_position_node.Children.value = [self.object_geometry]
+
+        #Move hinge from center of initialization
         self.hinge_position_node.Transform.value = avango.gua.make_trans_mat(0.0, 0.0, 0.0)
         PARENT_NODE.Children.value.append(self.hinge_position_node)
 
         ## ToDo: connect input fields
-        # ...
+        if self.id == 0:
+            self.sf_rot_value.connect_from(self.input.sf_rot_input0)
+
+        elif self.id == 1:
+            self.sf_rot_value.connect_from(self.input.sf_rot_input1)
+
+        elif self.id == 2:
+            self.sf_rot_value.connect_from(self.input.sf_rot_input2)
 
 
-        
+
     ### callback functions ###
-    
     @field_has_changed(sf_rot_value)
     def sf_rot_value_changed(self):
         pass
         ## ToDo: accumulate input to hinge node && consider rotation contraints of this hinge
-        # ...
+        self.hinge_position_node.Transform.value *= avango.gua.make_rot_mat(self.sf_rot_value.value, self.rot_axis) 
 
     def get_hinge_position_node(self):
         return self.hinge_position_node

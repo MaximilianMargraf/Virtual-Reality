@@ -20,9 +20,7 @@ class Crane:
         TARGET_LIST = [],
         ):
 
-
         ### resources ###
-
         ## init base node for whole crane
         self.base_node = avango.gua.nodes.TransformNode(Name = "base_node")
         self.base_node.Transform.value = avango.gua.make_trans_mat(0.0,-0.1,0.0)
@@ -55,24 +53,54 @@ class Crane:
             ROT_OFFSET_MAT = avango.gua.make_identity_mat(),
             )
 
-
-
         ## ToDo: init second hinge && connect rotation input 
-        # ...
+        self.hinge2 = Hinge()
+
+        self.hinge2.my_constructor(
+            PARENT_NODE = self.arm1.get_arm_top_position_node(),
+            DIAMETER = 0.02, # in meter
+            HEIGHT = 0.01, # in meter
+            ROT_OFFSET_MAT = avango.gua.make_rot_mat(90.0, 1.0, 0.0, 0.0), # the rotation offset relative to the parent coordinate system
+            ROT_AXIS = avango.gua.Vec3(0,0,1), # the axis to rotate arround with the rotation input (default is head axis)        
+            #SF_ROT_INPUT_MAT = 0.0
+            )
 
         ## ToDo: init second arm-segment
-        # ...
-        
+        self.arm2 = Arm(
+            PARENT_NODE = self.hinge2.get_hinge_position_node(),
+            DIAMETER = 0.01, # in meter
+            LENGTH = 0.07, # in meter
+            #ROT_OFFSET_MAT = avango.gua.make_identity_mat(),
+            )
 
         ## ToDo: init third hinge && connect rotation input 
-        # ...
+        self.hinge3 = Hinge()
+
+        self.hinge3.my_constructor(
+            PARENT_NODE = self.arm2.get_arm_top_position_node(),
+            DIAMETER = 0.02, # in meter
+            HEIGHT = 0.01, # in meter
+            ROT_OFFSET_MAT = avango.gua.make_rot_mat(90.0, 1.0, 0.0, 0.0), # the rotation offset relative to the parent coordinate system
+            ROT_AXIS = avango.gua.Vec3(0,0,1), # the axis to rotate arround with the rotation input (default is head axis)        
+            #SF_ROT_INPUT_MAT = 0.0
+            )
 
         ## ToDo: init third arm-segment
-        # ...
-
+        self.arm3 = Arm(
+            PARENT_NODE = self.hinge3.get_hinge_position_node(),
+            DIAMETER = 0.01, # in meter
+            LENGTH = 0.07, # in meter
+            ROT_OFFSET_MAT = avango.gua.make_identity_mat(),
+            )
 
         ## ToDo: init hook
-        # ...
+        self.hook = Hook()
+
+        self.hook.my_constructor(
+            PARENT_NODE = self.arm3.get_arm_top_position_node(),
+            SIZE = 0.02, # in meter
+            )
+
                      
     def get_base_node(self):
         return self.base_node

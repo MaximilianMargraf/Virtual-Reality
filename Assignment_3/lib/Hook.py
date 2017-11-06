@@ -29,14 +29,23 @@ class Hook(avango.script.Script):
         self.TARGET_LIST = TARGET_LIST
 
 
+        ### variable
+        self.size = SIZE
 
         ### resources ###
         
         _loader = avango.gua.nodes.TriMeshLoader() # get trimesh loader to load external tri-meshes
         
-        ## ToDo: init hook node(s)
-        # ...
+        self.object_geometry = _loader.create_geometry_from_file("hook_geometry", "data/objects/sphere.obj", avango.gua.LoaderFlags.DEFAULTS)
+        self.object_geometry.Transform.value *= avango.gua.make_scale_mat(self.size)
+        self.object_geometry.Material.value.set_uniform("Color", avango.gua.Vec4(1, 185/255, 15/255, 1))
 
+        ## ToDo: init hook node(s)
+        self.hook_position_node = avango.gua.nodes.TransformNode(Name = "hook_position_node")
+        self.hook_position_node.Children.value = [self.object_geometry]
+
+        self.hook_position_node.Transform.value = avango.gua.make_trans_mat(0.0, 0.0, 0.0)
+        PARENT_NODE.Children.value.append(self.hook_position_node)
 
         ## ToDo: init field connections
         # ...
