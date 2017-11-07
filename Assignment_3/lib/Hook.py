@@ -5,6 +5,7 @@ import avango
 import avango.gua
 import avango.script
 from avango.script import field_has_changed
+from lib.Scene import Scene
 
 
 class Hook(avango.script.Script):
@@ -23,17 +24,12 @@ class Hook(avango.script.Script):
         TARGET_LIST = [],
         ):
 
-
-        ### external references ###
-        
-        self.TARGET_LIST = TARGET_LIST
-
+        ### external references ##
 
         ### variable
         self.size = SIZE
-
+        self.target_list = TARGET_LIST
         ### resources ###
-        
         _loader = avango.gua.nodes.TriMeshLoader() # get trimesh loader to load external tri-meshes
         
         self.object_geometry = _loader.create_geometry_from_file("hook_geometry", "data/objects/sphere.obj", avango.gua.LoaderFlags.DEFAULTS)
@@ -43,24 +39,23 @@ class Hook(avango.script.Script):
         ## ToDo: init hook node(s)
         self.hook_position_node = avango.gua.nodes.TransformNode(Name = "hook_position_node")
         self.hook_position_node.Children.value = [self.object_geometry]
-
-        self.hook_position_node.Transform.value = avango.gua.make_trans_mat(0.0, 0.0, 0.0)
         PARENT_NODE.Children.value.append(self.hook_position_node)
 
-        ## ToDo: init field connections
-        # ...
+        self.always_evaluate(True)
+        print(self.object_geometry.Transform.value)
+        print(self.hook_position_node.Transform.value)
 
-
+        #sf_mat needs the coordinates from hook_position_node, how?
+        self.sf_mat.connect_from(self.object_geometry.WorldTransform)
 
     ### callback functions ###
-    
     @field_has_changed(sf_mat)
     def sf_mat_changed(self):
         _pos = self.sf_mat.value.get_translate() # world position of hook
         
-        for _node in self.TARGET_LIST: # iterate over all target nodes
+        for _node in self.target_list: # iterate over all target nodes
             _bb = _node.BoundingBox.value # get bounding box of a node
-            #print(_node.Name.value, _bb.contains(_pos))
+            print(_node.Name.value, _bb.contains(_pos))
             
             if _bb.contains(_pos) == True: # hook inside bounding box of this node
                 _node.Material.value.set_uniform("Color", avango.gua.Vec4(1.0,0.0,0.0,0.85)) # highlight color

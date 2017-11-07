@@ -15,7 +15,6 @@ class Scene:
         ### variables ###
         self.box_list = []
 
-
         ### resources ###
 
         ## init scene light
