@@ -29,14 +29,18 @@ class Hook(avango.script.Script):
         ### variable
         self.size = SIZE
         self.target_list = TARGET_LIST
+
+
         ### resources ###
-        _loader = avango.gua.nodes.TriMeshLoader() # get trimesh loader to load external tri-meshes
-        
+        _loader = avango.gua.nodes.TriMeshLoader()
+
+
+        #Init Geometry
         self.object_geometry = _loader.create_geometry_from_file("hook_geometry", "data/objects/sphere.obj", avango.gua.LoaderFlags.DEFAULTS)
         self.object_geometry.Transform.value *= avango.gua.make_scale_mat(self.size)
         self.object_geometry.Material.value.set_uniform("Color", avango.gua.Vec4(1, 185/255, 15/255, 1))
 
-        ## ToDo: init hook node(s)
+        ##Init Hook Nodes
         self.hook_position_node = avango.gua.nodes.TransformNode(Name = "hook_position_node")
         self.hook_position_node.Children.value = [self.object_geometry]
         PARENT_NODE.Children.value.append(self.hook_position_node)
@@ -45,8 +49,10 @@ class Hook(avango.script.Script):
         print(self.object_geometry.Transform.value)
         print(self.hook_position_node.Transform.value)
 
-        #sf_mat needs the coordinates from hook_position_node, how?
-        self.sf_mat.connect_from(self.object_geometry.WorldTransform)
+
+        #Use wolrd tranform to get the hook_position in the world coordinate system
+        self.sf_mat.connect_from(self.hook_position_node.WorldTransform)
+
 
     ### callback functions ###
     @field_has_changed(sf_mat)
@@ -55,7 +61,7 @@ class Hook(avango.script.Script):
         
         for _node in self.target_list: # iterate over all target nodes
             _bb = _node.BoundingBox.value # get bounding box of a node
-            print(_node.Name.value, _bb.contains(_pos))
+            #print(_node.Name.value, _bb.contains(_pos))
             
             if _bb.contains(_pos) == True: # hook inside bounding box of this node
                 _node.Material.value.set_uniform("Color", avango.gua.Vec4(1.0,0.0,0.0,0.85)) # highlight color

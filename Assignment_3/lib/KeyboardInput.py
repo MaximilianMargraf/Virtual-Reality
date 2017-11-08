@@ -32,7 +32,10 @@ class KeyboardInput(avango.script.Script):
     ## output fields 
     sf_rot_input0 = avango.SFFloat()
     sf_rot_input1 = avango.SFFloat()
-    sf_rot_input2 = avango.SFFloat()    
+    sf_rot_input2 = avango.SFFloat()
+
+    #calculate 1/framerate: available for hinge for if cases
+    sf_rot_frame = avango.SFFloat()
 
     sf_max_fps = avango.SFFloat()
     sf_max_fps.value = 60.0 # initial value
@@ -43,14 +46,11 @@ class KeyboardInput(avango.script.Script):
         self.super(KeyboardInput).__init__()
    
         ### parameters ###
-        self.rot_velocity = 2.0 # in degrees/sec
+        self.rot_velocity = 20.0 # in degrees/sec
         
         ### variables ###
         self.lf_time = time.time() # absolute time of last frame
-                
    
-        ### resources ###
-        
         ## init sensor
         self.keyboard_sensor = avango.daemon.nodes.DeviceSensor(DeviceService = avango.daemon.DeviceService())
         self.keyboard_sensor.Station.value = "gua-device-keyboard"
@@ -70,42 +70,40 @@ class KeyboardInput(avango.script.Script):
  
 
     ### callback functions ###     
-
-    @field_has_changed(sf_button6) # evaluated if this field has changed
+    @field_has_changed(sf_button6)# evaluated if this field has changed
     def sf_button6_changed(self):
     
-        if self.sf_button6.value == True: # key pressed
+        if self.sf_button6.value == True:# key pressed
             
             if self.sf_max_fps.value == 60.0:
                 self.sf_max_fps.value = 20.0 # set slow application/render framerate
+                self.sf_rot_frame.value = 1/self.sf_max_fps.value
                 print("slow:", self.sf_max_fps.value, "FPS")
             else:
                 self.sf_max_fps.value = 60.0 # set fast application/render framerate
+                self.sf_rot_frame.value = 1/self.sf_max_fps.value
                 print("fast:", self.sf_max_fps.value, "FPS")
 
 
-
-    def evaluate(self): # evaluated every frame if any input field has changed  
-        
-        ## ToDo: realize frame-rate independent mapping
-        self.lf_time = time.time() # save absolute time of last frame (required for frame-rate independent mapping)
-                
+    # evaluated every frame if any input field has changed
+    # multiplied by 1/fps to adjust the rotation speed for independet framerate mapping
+    def evaluate(self):
         ## get rot_value0
         if self.sf_button0.value == True:
-            self.sf_rot_input0.value = self.rot_velocity * -1.0
+            self.sf_rot_input0.value = self.rot_velocity * -1.0 * self.sf_rot_frame.value
 
-        elif self.sf_button1.value == True:
-            self.sf_rot_input0.value = self.rot_velocity
+        if self.sf_button1.value == True:
+            self.sf_rot_input0.value = self.rot_velocity * self.sf_rot_frame.value
         
         else:
             self.sf_rot_input0.value = 0.0
 
         ## get rot_value1
         if self.sf_button2.value == True:
-            self.sf_rot_input1.value = self.rot_velocity * -1.0
+            self.sf_rot_input1.value = self.rot_velocity * -1.0 * self.sf_rot_frame.value
 
         elif self.sf_button3.value == True:
-            self.sf_rot_input1.value = self.rot_velocity
+            self.sf_rot_input1.value = self.rot_velocity * self.sf_rot_frame.value
         
         else:
             self.sf_rot_input1.value = 0.0
@@ -113,11 +111,10 @@ class KeyboardInput(avango.script.Script):
 
         ## get rot_value2
         if self.sf_button4.value == True:
-            self.sf_rot_input2.value = self.rot_velocity * -1.0
+            self.sf_rot_input2.value = self.rot_velocity * -1.0 * self.sf_rot_frame.value
 
         elif self.sf_button5.value == True:
-            self.sf_rot_input2.value = self.rot_velocity
+            self.sf_rot_input2.value = self.rot_velocity * self.sf_rot_frame.value
         
         else:
             self.sf_rot_input2.value = 0.0
-    
