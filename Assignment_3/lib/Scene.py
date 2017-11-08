@@ -89,4 +89,14 @@ class Scene:
         self.box3_geometry.Material.value.set_uniform("RoughnessMap", "data/textures/box2/roughness.jpg")
         PARENT_NODE.Children.value.append(self.box3_geometry)
         self.box_list.append(self.box3_geometry)
+
+        ## init box3
+
+        self.diamond_geometry = _loader.create_geometry_from_file("diamond_geometry", "data/objects/diamond.obj", avango.gua.LoaderFlags.DEFAULTS)
+        self.diamond_geometry.Transform.value = \
+            avango.gua.make_trans_mat(0.13, 0.0, -0.0) * \
+            avango.gua.make_scale_mat(0.0005)
+        self.diamond_geometry.Material.value.set_uniform("Color", avango.gua.Vec4(1, 185/255, 15/255, 1))
+        PARENT_NODE.Children.value.append(self.diamond_geometry)
+        self.box_list.append(self.diamond_geometry)
     
