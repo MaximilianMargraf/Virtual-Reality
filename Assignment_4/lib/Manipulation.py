@@ -414,7 +414,6 @@ class IsotonicPositionControlManipulation(Manipulation):
 ##########################
 ### Exercise 4.3
 ##########################
-
 class IsotonicRateControlManipulation(Manipulation):
 
     # initiliaze
@@ -433,9 +432,9 @@ class IsotonicRateControlManipulation(Manipulation):
     def manipulate(self):
         pass
         # add speed if mouse position changes
-        self._x_speed += self.mf_dof.value[0]/20
-        self._y_speed += self.mf_dof.value[1]/20
-        self._z_speed += self.mf_dof.value[2]/20
+        self._x_speed += self.mf_dof.value[0]/100
+        self._y_speed += self.mf_dof.value[1]/100
+        self._z_speed += self.mf_dof.value[2]/100
 
 
         _new_mat = avango.gua.make_trans_mat(self._x_speed, self._y_speed, self._z_speed) * self.sf_mat.value
@@ -449,15 +448,25 @@ class IsotonicRateControlManipulation(Manipulation):
     def reset(self):
         pass
         self.sf_mat.value = avango.gua.make_identity_mat() # snap hand back to screen center
+        self._x_speed = 0.0
+        self._y_speed = 0.0
+        self._z_speed = 0.0
 
 
 
 class IsotonicAccelerationControlManipulation(Manipulation):
+   
+    _x_speed = 0.0
+    _y_speed = 0.0
+    _z_speed = 0.0
+
+    _x_acc = 0.0
+    _y_acc = 0.0
+    _z_acc = 0.0
 
     def my_constructor(self, MF_DOF, MF_BUTTONS):
         self.type = "isotonic-acceleration-control"
       
-        # init field connections
         self.mf_dof.connect_from(MF_DOF)
         self.mf_buttons.connect_from(MF_BUTTONS)
 
@@ -465,15 +474,34 @@ class IsotonicAccelerationControlManipulation(Manipulation):
     ## implement respective base-class function
     def manipulate(self):
         pass
-        ## TODO: add code
+        self._x_acc += self.mf_dof.value[0]/1000
+        self._y_acc += self.mf_dof.value[1]/1000
+        self._z_acc += self.mf_dof.value[2]/1000
+
+        self._x_speed += self._x_acc
+        self._y_speed += self._y_acc
+        self._z_speed += self._z_acc
+
+        _new_mat = avango.gua.make_trans_mat(self._x_speed, self._y_speed, self._z_speed) * self.sf_mat.value
+
+        _new_mat = self.clamp_matrix(_new_mat) # possibly clamp matrix (to screen space borders)
+
+        self.sf_mat.value = _new_mat # apply new matrix to field
 
 
     ## implement respective base-class function
     def reset(self):
         pass
-        ## TODO: add code
-
-########################## End of Exercise 4.3
+        self.sf_mat.value = avango.gua.make_identity_mat() # snap hand back to screen center
+        self._x_speed = 0.0
+        self._y_speed = 0.0
+        self._z_speed = 0.0
+        self._x_acc = 0.0
+        self._y_acc = 0.0
+        self._z_acc = 0.0
+##########################
+### Exercise 4.3
+##########################
     
 
 ##########################
@@ -494,17 +522,31 @@ class ElasticPositionControlManipulation(Manipulation):
 
     ## implement respective base-class function
     def manipulate(self):
-        pass
-        # TODO: add code
+        _x = self.mf_dof.value[0]
+        _y = self.mf_dof.value[1]
+        _z = self.mf_dof.value[2]
+       
+        # accumulate input
+        _new_mat = avango.gua.make_trans_mat(_x, _y, _z)
+
+        # possibly clamp matrix (to screen space borders)
+        _new_mat = self.clamp_matrix(_new_mat)
+
+        self.sf_mat.value = _new_mat # apply new matrix to field
 
 
     ## implement respective base-class function
     def reset(self):
         pass
-        # TODO: add code
+        self.sf_mat.value = avango.gua.make_identity_mat() # snap hand back to screen center
 
 
 class ElasticRateControlManipulation(Manipulation):
+
+    # initiliaze
+    _x_speed = 0.0
+    _y_speed = 0.0
+    _z_speed = 0.0
 
     def my_constructor(self, MF_DOF, MF_BUTTONS):
         self.type = "elastic-rate-control"
@@ -517,16 +559,36 @@ class ElasticRateControlManipulation(Manipulation):
     ## implement respective base-class function
     def manipulate(self):
         pass
-        # TODO: add code
+        self._x_speed += self.mf_dof.value[0]/100
+        self._y_speed += self.mf_dof.value[1]/100
+        self._z_speed += self.mf_dof.value[2]/100
+
+
+        _new_mat = avango.gua.make_trans_mat(self._x_speed, self._y_speed, self._z_speed)
+
+        _new_mat = self.clamp_matrix(_new_mat) # possibly clamp matrix (to screen space borders)
+
+        self.sf_mat.value = _new_mat # apply new matrix to field
 
          
     ## implement respective base-class function
     def reset(self):
         pass
-        # TODO: add code
+        self.sf_mat.value = avango.gua.make_identity_mat() # snap hand back to screen center
+        self._x_speed = 0.0
+        self._y_speed = 0.0
+        self._z_speed = 0.0
 
 
 class ElasticAccelerationControlManipulation(Manipulation):
+
+    _x_speed = 0.0
+    _y_speed = 0.0
+    _z_speed = 0.0
+
+    _x_acc = 0.0
+    _y_acc = 0.0
+    _z_acc = 0.0
 
     def my_constructor(self, MF_DOF, MF_BUTTONS):
         self.type = "elastic-acceleration-control"
@@ -539,12 +601,31 @@ class ElasticAccelerationControlManipulation(Manipulation):
     ## implement respective base-class function
     def manipulate(self): 
         pass
-        # TODO: add code
-             
+        self._x_acc += self.mf_dof.value[0]/1000
+        self._y_acc += self.mf_dof.value[1]/1000
+        self._z_acc += self.mf_dof.value[2]/1000
 
-    ## implement respective base-class function
+        self._x_speed += self._x_acc
+        self._y_speed += self._y_acc
+        self._z_speed += self._z_acc
+             
+        _new_mat = avango.gua.make_trans_mat(self._x_speed, self._y_speed, self._z_speed)
+
+        _new_mat = self.clamp_matrix(_new_mat) # possibly clamp matrix (to screen space borders)
+
+        self.sf_mat.value = _new_mat # apply new matrix to field
+    
+    # implement respective base-class function
     def reset(self):
         pass
-        # TODO: add code
-        
-########################## End of Exercise 4.4
+        self.sf_mat.value = avango.gua.make_identity_mat() # snap hand back to screen center
+        self._x_speed = 0.0
+        self._y_speed = 0.0
+        self._z_speed = 0.0
+        self._x_acc = 0.0
+        self._y_acc = 0.0
+        self._z_acc = 0.0
+
+##########################
+### Exercise 4.4
+##########################
