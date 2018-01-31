@@ -104,6 +104,7 @@ class SimpleViewingSetup:
         self.camera_node.Resolution.value = self.window_size
         self.camera_node.OutputWindowName.value = self.window.Title.value
         self.camera_node.PipelineDescription.value = self.pipeline_description
+        self.camera_node.BlackList.value = ["invisible"]
         self.head_node.Children.value = [self.camera_node]
 
 

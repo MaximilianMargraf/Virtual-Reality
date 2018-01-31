@@ -33,6 +33,8 @@ class KeyboardInput(avango.script.Script):
     sf_rot_input0 = avango.SFFloat()
     sf_rot_input1 = avango.SFFloat()
     sf_rot_input2 = avango.SFFloat()
+    sf_prov_on = avango.SFFloat()
+    prov_count = 1
 
     #calculate 1/framerate: available for hinge for if cases
     sf_rot_frame = avango.SFFloat()
@@ -118,3 +120,19 @@ class KeyboardInput(avango.script.Script):
         
         else:
             self.sf_rot_input2.value = 0.0
+
+    @field_has_changed(sf_button0)# evaluated if this field has changed
+    def sf_button0_changed(self):
+        if self.sf_button0.value == True:
+            print(self.prov_count)
+
+            if self.prov_count%2 == 1:
+                self.sf_prov_on.value = True
+                print(self.sf_prov_on.value)
+                self.prov_count +=1
+
+            else:
+                self.sf_prov_on.value = False
+                print(self.sf_prov_on.value)
+                self.prov_count +=1
+

@@ -34,7 +34,7 @@ class Scene:
 
         ## init scene geometries
         _loader = avango.gua.nodes.TriMeshLoader() # get trimesh loader to load external meshes
-
+        """
         ## init ground
         self.ground_geometry = _loader.create_geometry_from_file("ground_geometry", "data/objects/cube.obj", avango.gua.LoaderFlags.DEFAULTS)
         self.ground_geometry.Transform.value = \
@@ -43,8 +43,8 @@ class Scene:
         self.ground_geometry.Material.value.set_uniform("ColorMap", "data/textures/ground/bricks_diffuse.jpg")
         self.ground_geometry.Material.value.set_uniform("NormalMap", "data/textures/ground/bricks_normal.jpg")
         PARENT_NODE.Children.value.append(self.ground_geometry)
-        
-
+        """
+        """
         ## init box0
         self.box0_geometry = _loader.create_geometry_from_file("box0_geometry", "data/objects/cube.obj", avango.gua.LoaderFlags.DEFAULTS)
         self.box0_geometry.Transform.value = \
@@ -99,4 +99,4 @@ class Scene:
         self.diamond_geometry.Material.value.set_uniform("Color", avango.gua.Vec4(1, 185/255, 15/255, 1))
         PARENT_NODE.Children.value.append(self.diamond_geometry)
         self.box_list.append(self.diamond_geometry)
-    
+        """

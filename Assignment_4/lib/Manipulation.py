@@ -178,18 +178,25 @@ class ManipulationManager(avango.script.Script):
         _hand_mat = self.hand_transform.WorldTransform.value
 
         for _node in self.TARGET_LIST:
-            if self.is_highlight_material(_node.CurrentColor.value) == True: # a monkey node in close proximity
+            # a monkey node in close proximity
+            if self.is_highlight_material(_node.CurrentColor.value) == True: 
                 _node.CurrentColor.value = avango.gua.Vec4(1.0, 0.0, 0.0, 1.0)
-                _node.Material.value.set_uniform("Color", _node.CurrentColor.value) # switch to dragging material
+                # switch to dragging material
+                _node.Material.value.set_uniform("Color", _node.CurrentColor.value) 
 
-                _node.Transform.value = avango.gua.make_inverse_mat(_hand_mat) * _node.Transform.value # express monkey head in hand coords
+                # express monkey head in hand coords
+                _node.Transform.value = avango.gua.make_inverse_mat(_hand_mat) * _node.Transform.value
+                
+                # remove monkey head from root node
+                _node.Parent.value.Children.value.remove(_node)
 
-                _node.Parent.value.Children.value.remove(_node) # remove monkey head from root node
+                # append monkey head to hand_transform
+                self.hand_transform.Children.value.append(_node)
 
-                self.hand_transform.Children.value.append(_node) # append monkey head to hand_transform
+                # append monkey head to dragged_objects_list
+                self.dragged_objects_list.append(_node)
 
-                self.dragged_objects_list.append(_node) # append monkey head to dragged_objects_list
-
+    # because we used version 1, we don´t need to compute anything here
     def object_dragging(self):
         pass
 
@@ -197,13 +204,20 @@ class ManipulationManager(avango.script.Script):
         ## handle all dragged objects
         for _node in self.dragged_objects_list:      
             _node.CurrentColor.value = avango.gua.Vec4(0.0, 1.0, 0.0, 1.0)
-            _node.Material.value.set_uniform("Color", _node.CurrentColor.value) # switch to highlight material
+            # switch to highlight material
+            _node.Material.value.set_uniform("Color", _node.CurrentColor.value) 
 
+            # give the monkey its world coords etc.
             _node.Transform.value = _node.WorldTransform.value
+
+            # remove monkey head from hand_transform 
             self.hand_transform.Children.value.remove(_node)
+
+            # append monkey head to root node again
             self.SCENE_ROOT.Children.value.append(_node)
     
-            self.dragged_objects_list = [] # clear list
+            # clear list
+            self.dragged_objects_list = []
 
     ##########################
     ### Exercise 4.2
@@ -416,7 +430,7 @@ class IsotonicPositionControlManipulation(Manipulation):
 ##########################
 class IsotonicRateControlManipulation(Manipulation):
 
-    # initiliaze
+    # first order mapping, mouse position will result in changing of speed, not position
     _x_speed = 0.0
     _y_speed = 0.0
     _z_speed = 0.0
@@ -444,7 +458,7 @@ class IsotonicRateControlManipulation(Manipulation):
         self.sf_mat.value = _new_mat # apply new matrix to field
     
 
-    ## implement respective base-class function
+    # reset speed and location of mouse
     def reset(self):
         pass
         self.sf_mat.value = avango.gua.make_identity_mat() # snap hand back to screen center
@@ -456,6 +470,7 @@ class IsotonicRateControlManipulation(Manipulation):
 
 class IsotonicAccelerationControlManipulation(Manipulation):
    
+
     _x_speed = 0.0
     _y_speed = 0.0
     _z_speed = 0.0
@@ -478,9 +493,9 @@ class IsotonicAccelerationControlManipulation(Manipulation):
         self._y_acc += self.mf_dof.value[1]/1000
         self._z_acc += self.mf_dof.value[2]/1000
 
-        self._x_speed += self._x_acc
-        self._y_speed += self._y_acc
-        self._z_speed += self._z_acc
+        self._x_speed += self._x_acc* 0.5
+        self._y_speed += self._y_acc* 0.5
+        self._z_speed += self._z_acc* 0.5
 
         _new_mat = avango.gua.make_trans_mat(self._x_speed, self._y_speed, self._z_speed) * self.sf_mat.value
 
@@ -605,9 +620,9 @@ class ElasticAccelerationControlManipulation(Manipulation):
         self._y_acc += self.mf_dof.value[1]/1000
         self._z_acc += self.mf_dof.value[2]/1000
 
-        self._x_speed += self._x_acc
-        self._y_speed += self._y_acc
-        self._z_speed += self._z_acc
+        self._x_speed += self._x_acc* 0.5
+        self._y_speed += self._y_acc* 0.5
+        self._z_speed += self._z_acc* 0.5
              
         _new_mat = avango.gua.make_trans_mat(self._x_speed, self._y_speed, self._z_speed)
 
@@ -629,3 +644,40 @@ class ElasticAccelerationControlManipulation(Manipulation):
 ##########################
 ### Exercise 4.4
 ##########################
+
+
+##########################
+""" Exercise 4.5
+Isotonic Position Control:
+Zero Order Mapping,
+changes in the position of the input device, directly impact changes of the displayed elements
+Normal Mouse is the perfect example. Really easy to manipulate objects thanks to precognition
+
+Isotonic Rate Control:
+First Order Mapping
+changes in the position of the input device, result in changes of an attribute
+Mouse-Rad im Brower drücken
+
+Isotonic Acceleration Control:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""

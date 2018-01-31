@@ -5,7 +5,6 @@ import avango
 import avango.gua
 import avango.script
 from avango.script import field_has_changed
-from lib.KeyboardInput import KeyboardInput
 
 
 class Hinge(avango.script.Script):
